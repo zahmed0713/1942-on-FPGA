@@ -29,7 +29,6 @@ static XSpi_Config *ConfigPtr;	/* Pointer to Configuration data */
 XTmrCtr Usb_timer;
 
 
-//Initialization of SPI port is already done for you
 void SPI_init() {
 
 	xil_printf("Initializing SPI\n");
